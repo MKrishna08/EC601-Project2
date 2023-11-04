@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plan Your Day</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <h1>Plan Your Day</h1>
+  <div id="map-container">
+    <div id="map"></div>
+  </div>
+  <div id="location-input">
+    <p id="selected-location">Click on the map to select a location.</p>
+  </div>
+
+  <div id="button-container">
+    <button id="planButton">Plan My Day</button>
+  </div>
+  
+  <div id="itinerary"></div>
+  <div id="reset">
+    <button id="resetLocationButton" onclick="resetLocation()" style="display: none">Reset Location</button>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDz5o-ad5VeirRu7nu5zaNhQzb75tWrCw8&libraries=places&callback=initMap" async defer></script>
+  <script src="script.js"></script>
+</body>
+</html>

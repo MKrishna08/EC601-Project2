@@ -1,0 +1,52 @@
+/* styles.css */
+body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+  
+#map {
+  height: 400px;
+  width: 70%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+  
+#map-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#location-input {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#selected-location {
+  font-size: 16px;
+}
+
+button {
+  background-color: #0074cc;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth color transition on hover */
+  }
+  
+  button:hover {
+    background-color: #0054aa; /* Change button color on hover */
+  }
+  
+  #itinerary {
+    text-align: left;
+  }
+  

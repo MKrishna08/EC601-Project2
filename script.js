@@ -108,7 +108,7 @@ async function planMyDay() {
         type: "POST",
         url: "https://api.openai.com/v1/engines/gpt-3.5-turbo/completions",
         headers: {
-          "Authorization": "Bearer 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"
+          "Authorization": "Bearer API_KEY"
         },
         data: JSON.stringify({
           prompt: `Plan a day trip to ${selectedLocation} at ${timeOfDay} o'clock. Suggest places to visit near ${selectedLocation}.`,
